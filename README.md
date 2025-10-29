@@ -10,7 +10,6 @@
 ### [📌 Sobre o projeto](#sobre)
 ### [🧰 Tecnologias Utilizadas](#TecnologiasUtilizadas)
 ### [💻 Como utilizar o ClassManager](#ComoRodar)
-### [📁 Estrutura de Pastas e Arquivos](#EstruturaDePastas)
 ### [📷 Imagens do sistema](#ImagensDoSistema)
 ### [📞 Contato e Créditos](#CreditosEContato)
 
