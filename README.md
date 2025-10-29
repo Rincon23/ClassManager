@@ -1,4 +1,4 @@
-<h1> ClassManger </h1>
+<h1> ClassManager </h1>
 <p>
   <img src="Img/ImagemProjeto.png" width="500">
 </p>
