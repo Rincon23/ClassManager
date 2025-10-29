@@ -120,8 +120,7 @@ Crie usuários, faça login e cadastre disciplinas, professores e aulas pela int
   </tr>
   <tr>
     <td><img src="Img/CabeçalhoLogado.png" width="400"/> <img src="Img/CabeçalhoLogadoMobile.png" width="400"/></td>
-    <td><img src="Img/CabeçalhoLogin.png" width="400"/><img src="Img/CabeçalhoLoginMobile.png" width="400"/></td>
-    <td></td>
+    <td><img src="Img/CabeçalhoLogin.png" width="400"/> <img src="Img/CabeçalhoLoginMobile.png" width="400"/></td>
   </tr>
   </tr>
     <tr>
@@ -130,7 +129,7 @@ Crie usuários, faça login e cadastre disciplinas, professores e aulas pela int
   </tr>
   <tr>
     <td><img src="Img/Rodapé.png" width="400"/></td>
-    <td><img src="Img/crud.png" width="400"/></td>
+    <td><img src="Img/CRUD.png" width="400"/></td>
   </tr>
   <tr>
     <td align="center"><strong>Criar</strong></td>
@@ -146,7 +145,7 @@ Crie usuários, faça login e cadastre disciplinas, professores e aulas pela int
   </tr>
   <tr>
     <td><img src="Img/Excluir.png" width="400"/></td>
-    <td><img src="Img/atualizar.png" width="400"/></td>
+    <td><img src="Img/Atualizar.png" width="400"/></td>
   </tr>
 </table>
 
