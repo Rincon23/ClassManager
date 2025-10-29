@@ -115,7 +115,7 @@ Crie usuários, faça login e cadastre disciplinas, professores e aulas pela int
   </tr>
   <tr>
     <td align="center"><strong>Cabeçalho Logado</strong></td>
-    <td align="center"><strong>Cabeçalho Logi in</strong></td>
+    <td align="center"><strong>Cabeçalho Login</strong></td>
   </tr>
   <tr>
     <td><img src="Img/CabeçalhoLogado.png" width="400"/> <img src="Img/CabeçalhoLogadoMobile.png" width="400"/></td>
