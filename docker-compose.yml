@@ -1,0 +1,56 @@
+version: "3.9"
+
+services:
+  db:
+    image: mysql:8.0
+    container_name: classmanager-db
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_PASS}
+      MYSQL_DATABASE: ${DB_NAME}
+    ports:
+      - "${DB_PORT}:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h localhost -p${DB_PASS} || exit 1"]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+
+  api:
+    image: rincon23/classmanager-backend:latest
+    container_name: classmanager-api
+    depends_on:
+      db:
+        condition: service_healthy
+    env_file:
+      - .env
+    ports:
+      - "${PORT}:3000"
+
+  frontend:
+    image: rincon23/classmanager-frontend:latest
+    container_name: classmanager-frontend
+    depends_on:
+      - api
+    env_file:
+      - .env
+    ports:
+      - "${FRONT_PORT}:3001"
+
+
+  phpmyadmin:
+    image: phpmyadmin:latest
+    container_name: classmanager-phpmyadmin
+    depends_on:
+      - db
+    environment:
+      PMA_HOST: db
+      PMA_PORT: ${DB_PORT}
+      PMA_USER: ${DB_USER}
+      PMA_PASSWORD: ${DB_PASS}
+    ports:
+      - "8081:80"
+
+volumes:
+  mysql_data:

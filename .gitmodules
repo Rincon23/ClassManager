@@ -4,6 +4,3 @@
 [submodule "ClassManager-Frontend"]
 	path = ClassManager-Frontend
 	url = https://github.com/Rincon23/ClassManager-Frontend.git
-[submodule "ClassManager-Infrastructure"]
-	path = ClassManager-Infrastructure
-	url = https://github.com/Rincon23/ClassManager-Infrastructure.git
