@@ -18,13 +18,13 @@
 
 ## 📌 Sobre o projeto
 
-### O ClassManager é um sistema de gestão acadêmica, desenvolvido como parte do projeto Framework II da faculdade. Ele permite cadastrar e gerenciar disciplinas, professores e aulas, oferecendo uma interface moderna e intuitiva para controle escolar.
+### O ClassManager é um sistema de gestão acadêmica, desenvolvido como parte do projeto da matéria de Framework II da faculdade. Ele permite cadastrar e gerenciar disciplinas, professores e aulas, oferecendo uma interface moderna e intuitiva para controle escolar.
 
-### 🧩 O projeto segue a arquitetura Full Stack, com o back-end desenvolvido em Node.js (utilizando Express, Sequelize, JWT e Swagger) e o front-end em Next.js com React e TailwindCSS. O banco de dados utilizado é o MySQL, configurado via Docker Compose para facilitar a implantação e portabilidade do sistema.
+### 🧩 O projeto segue a arquitetura Full Stack, com o back-end desenvolvido em Node.js (utilizando Express, Sequelize, JWT e Swagger) e o front-end em Next.js com React, TailwindCSS e JavaScript. O banco de dados utilizado é o MySQL, configurado via Docker Compose para facilitar a implantação e portabilidade do sistema.
 
 ### 💡 O objetivo principal foi aplicar conceitos avançados de desenvolvimento web, integração entre front e back, autenticação com JWT e documentação de API. Além disso, foi implementado um pipeline automatizado com GitHub Actions para publicação das imagens no Docker Hub.
 
-###  A estrutura do projeto foi pensada para ser modular, organizada e escalável — com separação clara entre rotas, controladores, modelos e middlewares, garantindo facilidade de manutenção e entendimento do código.
+###  A estrutura do projeto foi pensada para ser modular, organizada e escalável, com separação clara entre rotas, controladores, modelos e middlewares, garantindo facilidade de manutenção e entendimento do código.
 
 <a id="TecnologiasUtilizadas"></a>
 
@@ -63,6 +63,9 @@
 
 <img src="https://img.shields.io/badge/React.js-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>  
 <p>Biblioteca JavaScript usada na construção de componentes reutilizáveis e responsivos para a interface do usuário.</p>
+
+<p><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"></p>
+<p>Ambiente de execução JavaScript usado no servidor, responsável por processar requisições e integrar o banco de dados.</p>
 
 <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white"/>  
 <p>Framework CSS que simplifica a estilização com classes utilitárias, garantindo um design limpo e responsivo.</p>
@@ -110,16 +113,16 @@ Crie usuários, faça login e cadastre disciplinas, professores e aulas pela int
     <td align="center"><strong>Login</strong></td>
   </tr>
   <tr>
-    <td><img src="Img/Inicio.png" width="400"/></td>
-    <td><img src="Img/Login.png" width="400"/></td>
+    <td align="center"><img src="Img/Inicio.png" width="400"/></td>
+    <td align="center"><img src="Img/Login.png" width="400"/></td>
   </tr>
   <tr>
     <td align="center"><strong>Cabeçalho Logado</strong></td>
     <td align="center"><strong>Cabeçalho Login</strong></td>
   </tr>
   <tr>
-    <td><img src="Img/CabeçalhoLogado.png" width="400"/> <img src="Img/CabeçalhoLogadoMobile.png" width="400"/></td>
-    <td><img src="Img/CabeçalhoLogin.png" width="400"/> <img src="Img/CabeçalhoLoginMobile.png" width="400"/></td>
+    <td align="center"><img src="Img/CabeçalhoLogado.png" width="400"/> <img src="Img/CabeçalhoLogadoMobile.png" width="400"/></td>
+    <td align="center"><img src="Img/CabeçalhoLogin.png" width="400"/> <img src="Img/CabeçalhoLoginMobile.png" width="400"/></td>
   </tr>
   </tr>
     <tr>
@@ -127,24 +130,24 @@ Crie usuários, faça login e cadastre disciplinas, professores e aulas pela int
     <td align="center"><strong>CRUD</strong></td>
   </tr>
   <tr>
-    <td><img src="Img/Rodapé.png" width="400"/></td>
-    <td><img src="Img/CRUD.png" width="400"/></td>
+    <td align="center"><img src="Img/Rodapé.png" width="400"/></td>
+    <td align="center"><img src="Img/CRUD.png" width="400"/></td>
   </tr>
   <tr>
     <td align="center"><strong>Criar</strong></td>
     <td align="center"><strong>Listar</strong></td>
   </tr>
   <tr>
-    <td><img src="Img/Criar.png" width="400"/></td>
-    <td><img src="Img/Listar.png" width="400"/></td>
+    <td align="center"><img src="Img/Criar.png" width="400"/></td>
+    <td align="center"><img src="Img/Listar.png" width="400"/></td>
   </tr>
   <tr>
     <td align="center"><strong>Deletar</strong></td>
     <td align="center"><strong>Atualizar</strong></td>
   </tr>
   <tr>
-    <td><img src="Img/Excluir.png" width="400"/></td>
-    <td><img src="Img/Atualizar.png" width="400"/></td>
+    <td align="center"><img src="Img/Excluir.png" width="400"/></td>
+    <td align="center"><img src="Img/Atualizar.png" width="400"/></td>
   </tr>
 </table>
 
