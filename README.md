@@ -1,5 +1,5 @@
-<h1> ClassManager </h1>
-<p>
+<h1 align="center"> ClassManager </h1>
+<p align="center">
   <img src="Img/ImagemProjeto.png" width="500">
 </p>
 
