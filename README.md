@@ -93,7 +93,8 @@ Preencha as variáveis conforme suas preferências.
 <br>[Link para o site do docker](https://www.docker.com/products/docker-desktop/)
 
 ✅ 4. Na pasta onde baixou os dois arquivos (docker-compose.yml e .env.example), execute:
-<br>docker compose up
+
+       docker compose up -d
 
 ✅ 5. Aguarde a inicialização dos containers. Após subir:
 - Front-end: http://localhost:3000
