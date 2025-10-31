@@ -44,15 +44,18 @@
 <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black"/>  
 <p>Ferramenta de documentação que permite testar e visualizar as rotas da API de forma prática e interativa.</p>
 
+<img src="https://img.shields.io/badge/Sequelize-2E8B57?style=for-the-badge&logo=sequelize&logoColor=white"/>  
+<p>ORM que facilita a comunicação entre o back-end e o banco de dados, simplificando a criação de tabelas e operações CRUD.</p>
+
 ---
 
 ### 🗄️ **Banco de Dados**
 
-<img src="https://img.shields.io/badge/Sequelize-2E8B57?style=for-the-badge&logo=sequelize&logoColor=white"/>  
-<p>ORM que facilita a comunicação entre o back-end e o banco de dados, simplificando a criação de tabelas e operações CRUD.</p>
-
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>  
 <p>Banco de dados relacional utilizado para armazenar todas as informações do sistema, como professores, disciplinas e aulas.</p>
+
+<img src="https://img.shields.io/badge/phpMyAdmin-6C78AF?style=for-the-badge&logo=phpmyadmin&logoColor=white"/> 
+<p>Ferramenta web para administração do MySQL, usada para visualizar, criar e gerenciar bancos e tabelas de forma gráfica.</p>
 
 ---
 
@@ -64,8 +67,8 @@
 <img src="https://img.shields.io/badge/React.js-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>  
 <p>Biblioteca JavaScript usada na construção de componentes reutilizáveis e responsivos para a interface do usuário.</p>
 
-<p><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"></p>
-<p>Ambiente de execução JavaScript usado no servidor, responsável por processar requisições e integrar o banco de dados.</p>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/> 
+<p>Superset do JavaScript que adiciona tipagem estática, ajudando a evitar erros e organizar melhor o código.</p>
 
 <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white"/>  
 <p>Framework CSS que simplifica a estilização com classes utilitárias, garantindo um design limpo e responsivo.</p>
